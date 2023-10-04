@@ -1,8 +1,11 @@
-<html>
+<html lang="en">
 <head>
-  <title>KomiWomi - home</title>
-<style>
-     body {
+    <title>Komi!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/gif/png" href="./icon.png">
+    <style>
+        body {
             background-color: #000000;
             background-repeat: repeat;
 	}	    
@@ -11,23 +14,56 @@
             font-family: "D3M0N";
             src: url("./files/D3M0N.ttf");
         }
-      }
-      h1 {
-        color: White;
-      }
-      h2 {
-        color: White;
-      }
-      </style>
+
+	.spanz {
+	z-index: -99;
+	}	
+
+        .title {
+	    opacity: 1;
+            z-index: 1000;
+            color: #740101;
+            text-align: center;
+            font-family: "D3M0N";
+            
+        }
+
+        .subtitle {
+	    opacity: 1;
+            z-index: 23;
+            color: #FFD700;
+            text-align: center;
+            font-family: "D3M0N";
+            font-size: 10px;
+            text-shadow: 0px 0px 10px #000000;
+         .links {
+	    opacity: 1;
+            z-index: 23;
+            color: #FFD700;
+            text-align: center;
+            font-family: "D3M0N";
+            font-size: 8px;
+            text-shadow: 0px 0px 8px #000000;
+        }
+
+        h1 span {
+	    opacity: 1;
+            text-shadow: 0px 0px 10px #ffffff;
+            z-index: 2;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome To My website</h1>
-  <p>Its boring asf</p>
-  <p>Leave a shoutbox!</p>
-   <p> <a href="https://komiwomi.github.io/aboutme">  about me</a></p>
-   <p> <a href="https://komiwomi.github.io/work">  projects</a></p>
-   <p> <a href="https://komiwomi.github.io/cat">  my cat</a></p>
-<p></p>
-  <iframe src="https://komi.ishoutbox.com" width="275" height="570" frameborder="0" valign="middle" allowtransparency="true"></iframe>
+    <div>
+        <h1 class="title"><span>KomiWomi!</span></h1>
+        <p>Welcome to my site!</p>
+	    <h4>thanks to d3m0n from BF for the font</h4>
+    </div>
+    <span class="spanz">.</span>
+    <div>
+      <p class="subtitle">Links:</p>
+	      <h4 class="title"><span><a href="./about.html>About me</a></span></h4>
+	      <h4 class="title"><span><a href="./bubble.png">My Cat</a></span></h4>
+  </div>
 </body>
 </html>
