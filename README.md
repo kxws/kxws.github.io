@@ -1,7 +1,4 @@
 # Komiwomi.github.io 
 
-Hello! This is my epic , and quite boring website!
-
-Special thanks to Hyperz for the dark theme
-
-lol
+Komis Boring Website!
+I hope you enjoy it!!1!!
